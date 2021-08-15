@@ -1,0 +1,340 @@
+:root {
+scroll-behavior: smooth;
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none !important;
+}
+input:focus{
+	box-shadow: none !important;
+}
+button{
+	text-decoration: none !important;
+}
+
+button:focus{
+box-shadow: none !important;
+}
+#menu-container
+{
+position: fixed;
+top: 0px;
+left: 0;
+background:  white;
+z-index:100000;
+}
+#menu-color li a{
+color: black;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+
+
+}
+#menu-color li a:hover {
+color: #0B84EE;
+}
+#menu-fafa-icon{
+font-size: 16px;
+color: black;
+}
+#fafa-box{
+width: 33px;
+height: 33px;
+padding-left: 8px;
+padding-top: 2px;
+border-radius: 50%;
+background-color: #0B84EE;
+color:white ;
+border: 2px solid #007CFF;
+}
+#fafa-box:hover{
+background-color: white;
+color:#0B84EE ;
+}
+#slider-image{
+width: 70%;
+border: 2px solid red;
+
+}
+#aboutme-container{
+background-color:#F2F6FC;
+
+}
+#name,#name1 h1{
+margin-top: 80px !important;
+}
+
+
+#profile-button{
+	width: 70px;
+	height: 65px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #53D1A0 !important;
+	color: white;
+}
+#profile-button-second{
+	width: 110px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #53D1A0 !important;
+	color: white;
+	border: none;
+
+}
+
+#two{
+	position: absolute;
+	top: 0;
+	left: 15px;
+	width: 100%;
+	z-index: 10000;
+
+}
+
+#resume-button{
+	width: 95px;
+	height: 68px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #1BC9E4 !important;
+	color: white;
+
+}
+ 
+#portfolio-button{
+	width: 95px;
+	height: 63px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #F698B8 !important;
+	color: white;
+
+}
+#testimonial-button{
+	width: 95px;
+	height: 63px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #FE916F !important;
+	color: white;
+
+}
+#contact-button{
+	width: 95px;
+	height: 63px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #FECD64 !important;
+	color: white;
+
+}
+#portfolio-image-btn button:hover{
+	color: #1CC9E4 !important;
+
+}
+
+
+
+
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #53D1A0;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot1{
+
+	height: 10px;
+  width: 10px;
+  background-color: #50D2E3;
+  border-radius: 50%;
+  display: inline-block;
+  
+
+}
+.dot2{
+
+	height: 10px;
+  width: 10px;
+  background-color: #F698B8;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3{
+		height: 10px;
+  width: 10px;
+	background-color: #FE916F;
+	border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+.fafa-space{
+margin-left: 10px !important;
+}
+#fafa-box{
+width: 26px;
+height: 26px;
+padding-left: 5px;
+padding-top: 0px;
+border-radius: 50%;
+background-color: #0B84EE;
+color:white ;
+border: 2px solid #007CFF;
+font-size: 14px;
+}
+#menu-container{
+	width: 100% !important;
+
+}
+
+#name1 h1 {
+margin-top: 0px !important;
+padding-top: 0px !important;
+margin-bottom: 0px !important;
+padding-bottom: 0px !important;
+font-size:33px !important;
+text-align: center;
+margin-left: 27px !important;
+}
+#name1 p{
+text-align: center;
+padding-top: 0px !important;
+margin-left: 20px !important;
+}
+#name h1 {
+margin-top: 0px !important;
+padding-top: 0px !important;
+margin-bottom: 0px !important;
+padding-bottom: 0px !important;
+font-size:33px !important;
+text-align: center;
+}
+#name p{
+text-align: center;
+padding-top: 0px !important;
+}
+#profile-image{
+padding-bottom: 0px !important;
+padding-bottom: 0px !important;
+padding-top: 5px !important;
+margin-top: 10px !important;
+}
+#profile-image1{
+padding-bottom: 2px !important;
+padding-top: 0px !important;
+margin-top: 0px !important;
+margin-left: 34px !important;
+
+}
+#table{
+overflow: hidden !important;
+margin-top: 2px !important;
+text-align: center;
+font-size: 12.5px !important;
+
+}
+#table1{
+display: none;
+}
+#profile-summary{
+	margin-left: 0px !important;
+	margin-top: 0px !important;
+	text-align: center;
+	padding: 5px !important;
+}
+#one{
+	width: 100% !important;
+}
+
+#resume{
+	width: 100% !important;
+
+}
+#card-body-responsive{
+	box-sizing: border-box;
+	padding-left: 5px !important;
+}
+#card-body-responsive h5{
+	font-size: 14px !important;
+}
+#card-body-responsive h6{
+	font-size: 12px !important;
+}
+#testimonial{
+	width: 100% !important;
+
+}
+#portfolio{
+	width: 100% !important;
+
+}
+#contact{
+	width: 100% !important;
+
+}
+
+#profile-button{
+	display: none !important;
+}
+
+#resume-button{
+		width: 50px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+		background-color: #1BC9E4 !important;
+	color: white;
+	 
+
+}
+
+#portfolio-button{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #F698B8 !important;
+	color: white;
+	
+
+}
+#testimonial-button{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #FE916F !important;
+	color: white;
+	
+
+}
+#contact-button{
+		width: 50px;
+	height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #FECD64 !important;
+	color: white;
+
+
+}
+#footer{
+	width: 100% !important;
+}
+
+
+}
+
